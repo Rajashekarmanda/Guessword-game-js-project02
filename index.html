@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessWord Game</title>
+    <link rel='stylesheet' href="./style.css"/>
+    <script src="https://kit.fontawesome.com/a04b2ba2dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <wordapp class="app-container">
+        <h1>Word Guessing - Game</h1>
+        <loader class="loader-container">
+            <spinner id="spinner" class="spinner-logo">🌀</spinner>
+        </loader>
+        <section class="guess-words-container">
+                <row class="input-row">
+                    <input type="text" id="row-one-col-one" class="input" value=""/>
+                    <input type="text" id="row-one-col-two" class="input" value=""/>
+                    <input type="text" id="row-one-col-three" class="input" value=""/>
+                    <input type="text" id="row-one-col-four" class="input" value=""/>
+                    <input type="text" id="row-one-col-five" class="input" value=""/>
+                </row>
+                <row class="input-row">
+                    <input type="text" id="row-two-col-one" class="input"/>
+                    <input type="text" id="row-two-col-two" class="input"/>
+                    <input type="text" id="row-two-col-three" class="input"/>
+                    <input type="text" id="row-two-col-four" class="input"/>
+                    <input type="text" id="row-two-col-five" class="input"/>
+                </row>
+                <row class="input-row">
+                    <input type="text" id="row-three-col-one" class="input"/>
+                    <input type="text" id="row-three-col-two" class="input"/>
+                    <input type="text" id="row-three-col-three" class="input"/>
+                    <input type="text" id="row-three-col-four" class="input"/>
+                    <input type="text" id="row-three-col-five" class="input"/>
+                </row>
+                <row class="input-row">
+                    <input type="text" id="row-four-col-one" class="input"/>
+                    <input type="text" id="row-four-col-two" class="input"/>
+                    <input type="text" id="row-four-col-three" class="input"/>
+                    <input type="text" id="row-four-col-four" class="input"/>
+                    <input type="text" id="row-four-col-five" class="input"/>
+                </row>
+                <row class="input-row">
+                    <input type="text" id="row-five-col-one" class="input"/>
+                    <input type="text" id="row-five-col-two" class="input"/>
+                    <input type="text" id="row-five-col-three" class="input"/>
+                    <input type="text" id="row-five-col-four" class="input"/>
+                    <input type="text" id="row-five-col-five" class="input"/>
+                </row>
+                <row class="input-row">
+                    <input type="text" id="row-six-col-one" class="input" />
+                    <input type="text" id="row-six-col-two" class="input"/>
+                    <input type="text" id="row-six-col-three" class="input"/>
+                    <input type="text" id="row-six-col-four" class="input"/>
+                    <input type="text" id="row-six-col-five" class="input"/>
+                </row>
+        </section>
+        <button id="checkButton">Check Answer</button>
+        <p id="wishTag"></p>
+    </wordapp>
+    <script src="./wordGame.js"></script>
+</body>
+</html>

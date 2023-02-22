@@ -1,0 +1,120 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid gray; */
+    padding: 20px;
+}
+.guess-words-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+}
+.input-row {
+    display: flex;
+    /* border: 2px solid lightgray; */
+}
+.input {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.input:hover {
+    background-color: lightgreen;
+}
+
+.loader-container {
+    display: flex;
+    /* border: 2px solid yellow; */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(60deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    70% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+.spinner-logo {
+    animation: rotate 1s infinite linear;
+    height: 20px;
+    width: 20px;
+    color: red;
+    margin-bottom: 10px;
+}
+button {
+    /* height: 28px;
+    width: 76px; */
+    background-color: rgb(60, 107, 218);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+    cursor: pointer;
+
+}
+h1 {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+@keyframes wish-tag-color {
+    0% {
+        color: red;
+    }
+    20% {
+        color: yellow;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: pink;
+    }
+    80% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+    
+}
+.wish-tag {
+    animation: wish-tag-color 2s infinite linear;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.input-style {
+    background-color: lightgreen;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
